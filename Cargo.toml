@@ -3,18 +3,6 @@ name = "rpi-playground"
 version = "0.1.0"
 edition = "2024"
 
-[[bin]]
-name = "blinky"
-path = "src/bin/blinky.rs"
-test = false
-doc = false
-
-[[bin]]
-name = "counter"
-path = "src/bin/counter.rs"
-test = false
-doc = false
-
 [dependencies]
 cortex-m-rt = "0.7.3"
 defmt = "1.0.1"
