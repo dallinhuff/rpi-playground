@@ -1,6 +1,6 @@
 [target.'cfg(all(target_arch = "arm", target_os = "none"))']
-# runner = "probe-rs run --chip RP2040"
-runner = "elf2uf2-rs --deploy --serial --verbose"
+runner = "probe-rs run --chip RP2040" # Use probe-rs with a debug probe
+# runner = "elf2uf2-rs --deploy --serial --verbose" # Use elf2uf2-rs to flash the pico directly
 
 [build]
 target = "thumbv6m-none-eabi" # Cortex-M0 and Cortex-M0+
