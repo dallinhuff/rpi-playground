@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+ag-lcd = { version = "0.3.0", features = ["i2c"] }
 cortex-m-rt = "0.7.3"
 defmt = "1.0.1"
 defmt-rtt = "1.0.0"
@@ -22,6 +23,7 @@ embassy-time = { version = "0.5.0", features = [
 	"defmt-timestamp-uptime",
 ] }
 panic-probe = { version = "0.3.1", features = ["print-defmt"] }
+port-expander = "0.6.5"
 
 
 [profile.release]
