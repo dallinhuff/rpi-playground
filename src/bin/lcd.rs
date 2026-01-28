@@ -1,4 +1,10 @@
 // This example types a message on an LCD screen.
+//
+// Circuit:
+// LCD VCC -> Pi VBUS (physical pin 40)
+// LCD GND -> Pi GND (e.g., physical pin 38)
+// LCD SDA -> Pi GP6 (physical pin 9)
+// LCD SCL -> Pi GP7 *physical pin 10)
 
 #![no_std]
 #![no_main]
