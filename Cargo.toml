@@ -3,6 +3,48 @@ name = "rpi-playground"
 version = "0.1.0"
 edition = "2024"
 
+
+[[bin]]
+name = "3-led-pot"
+test = false
+bench = false
+
+[[bin]]
+name = "blinky"
+test = false
+bench = false
+
+[[bin]]
+name = "button"
+test = false
+bench = false
+
+[[bin]]
+name = "counter"
+test = false
+bench = false
+
+[[bin]]
+name = "dimmer"
+test = false
+bench = false
+
+[[bin]]
+name = "lcd"
+test = false
+bench = false
+
+[[bin]]
+name = "rgb"
+test = false
+bench = false
+
+[[bin]]
+name = "rgb-button"
+test = false
+bench = false
+
+
 [dependencies]
 ag-lcd = { version = "0.3.0", features = ["i2c"] }
 cortex-m-rt = "0.7.3"
